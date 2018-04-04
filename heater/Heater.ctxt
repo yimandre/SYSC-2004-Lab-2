@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=minTemp\ maxTemp
+comment0.target=Heater(int,\ int)
+comment0.text=\r\n\ Constructs\ a\ new\ Heater\ with\ an\ initial\ temperature\ setting\ of\ 15\r\n\ degrees,\ and\ which\ increments\ and\ decrements\ the\ temperature\r\n\ setting\ in\ increments\ of\ 5\ degrees\ (see\ methods\ warmer\ and\ cooler).\ \r\n
+comment1.params=
+comment1.target=void\ warmer()
+comment1.text=\r\n\ Increases\ the\ heater's\ temperature\ setting\ by\ 5.\r\n
+comment2.params=
+comment2.target=void\ cooler()
+comment2.text=\r\n\ Lowers\ the\ heater's\ temperature\ setting\ by\ 5.\r\n
+comment3.params=newIncrement
+comment3.target=void\ setIncrement(int)
+comment3.text=\r\n\ Sets\ the\ temperature\ increment\ used\ by\ warmer()\ and\ cooler()\ \r\n\ to\ the\ specified\ value.\ Has\ no\ effect\ if\ newIncrement\ is\ not\r\n\ positive.\r\n
+comment4.params=
+comment4.target=int\ getTemperature()
+comment4.text=\r\n\ Returns\ this\ heater's\ current\ temperature\ setting.\r\n
+numComments=5
